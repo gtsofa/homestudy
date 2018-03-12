@@ -22,6 +22,8 @@ class Fraction:
     def __str__(self):
         return str(self.num) + '/' + str(self.deno)
 
+        #in order to add two fractions , denominators should be the same or multiply them
+
     def __add__(self, otherfraction):
         newnum = self.num*otherfraction.deno + self.deno*otherfraction.num
         newdeno = self.deno*otherfraction.deno
