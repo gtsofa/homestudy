@@ -19,6 +19,26 @@ class Fraction:
         self.num = num
         self.deno = deno
 
+    def __str__(self):
+        return str(self.num) + '/' + str(self.deno)
+
+    def __add__(self, otherfraction):
+        newnum = self.num*otherfraction.deno + self.deno*otherfraction.num
+        newdeno = self.deno*otherfraction.deno
+        
+        return Fraction(newnum, newdeno)
+
 myfraction = Fraction(3,5)
 
 print(myfraction)
+
+print("Zosi eat "+ str(myfraction) +" of ugali each day.")
+
+# adding two fractions
+
+f1 = Fraction(1,4)
+f2 = Fraction(1,2)
+f3 = f1 + f2
+print(f3)
+
+#print(f1.__add__f2())
