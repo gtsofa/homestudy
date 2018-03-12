@@ -1,5 +1,6 @@
 # class that model a Fraction
 
+
 """
 Notice that the formal parameter list contains three items (self, top, bottom). 
 self is a special parameter that will always be used as a reference back to the object itself.
@@ -12,6 +13,19 @@ self is a special parameter that will always be used as a reference back to the 
   The values of the two formal parameters are initially assigned to the state, allowing the 
   new fraction object to know its starting value.
 """
+#we use python special methods __add__ and __str__
+
+def gcd(m,n):
+        while m%n !=0:
+            oldm = m
+            oldn = n
+
+            m = oldn
+            n = oldm%oldn
+
+        return n
+
+print(gcd(20,10))
 
 class Fraction:
 
@@ -22,13 +36,20 @@ class Fraction:
     def __str__(self):
         return str(self.num) + '/' + str(self.deno)
 
+    
+
+   
+
         #in order to add two fractions , denominators should be the same or multiply them
 
     def __add__(self, otherfraction):
         newnum = self.num*otherfraction.deno + self.deno*otherfraction.num
         newdeno = self.deno*otherfraction.deno
+        common = gcd(newnum, newdeno)
         
-        return Fraction(newnum, newdeno)
+        return Fraction(newnum//common, newdeno//common)
+
+    
 
 myfraction = Fraction(3,5)
 
