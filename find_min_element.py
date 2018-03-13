@@ -4,8 +4,12 @@
 example: alist = [5,4,2,1,0]
 steps:
 -minelement == first element in a list when sorted( ascending order)
--overallmin = alist[0]
--loop/iterate to check for smallest element
--loop/iterate again to compare first smallest element to 2nd element in the item
+-result = alist[0] ie store the first index element in a result
+-loop/iterate through the list and check if the first element is the min/smallest
+-loop/iterate again through the list and compare that value to the next 2nd element in the list
+-if i > j : then i[that value] is not the smallest
+-done with the two loops 
+-return the result
+-
 -if true return the overallmin element
 """
