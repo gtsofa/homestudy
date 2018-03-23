@@ -23,3 +23,16 @@ def get_iterative_factorial(n):
             
         return fact
 print(get_iterative_factorial(6))
+
+def get_factorial(num):
+    
+    # base case
+    if num <= 1:
+        return 1
+
+    else:
+        result = num * get_factorial(num-1) # condi will run until hits base case
+
+    return result
+
+print(get_factorial(4))
