@@ -4,7 +4,7 @@ def get_recursive_factorial(n):
     if n < 0:
         return -1
 
-    elif n < 2:
+    elif n < 2: # base case
         return 1
 
     else:
