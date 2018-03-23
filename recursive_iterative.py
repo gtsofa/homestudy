@@ -35,4 +35,4 @@ def get_factorial(num):
 
     return result
 
-print(get_factorial(4))
+print("4! = ", get_factorial(4))
