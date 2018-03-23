@@ -25,3 +25,8 @@ Which of the following statements BEST explains encapsulation?
 A constructor is a special method that: *
 '''
 # Creates an object and initializes its properties
+
+'''
+By which process does a child Class obtain the properties of its parent Class?
+'''
+# Inheritance
