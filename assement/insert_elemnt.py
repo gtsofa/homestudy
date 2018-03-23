@@ -20,3 +20,8 @@ print(alist)
 Which of the following statements BEST explains encapsulation?
 '''
 # Encapsulation allows one to hide data so that it is not accessed directly but through public functions.
+
+'''
+A constructor is a special method that: *
+'''
+# Creates an object and initializes its properties
