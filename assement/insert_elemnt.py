@@ -54,3 +54,10 @@ What does it mean for an algorithm to have a time complexity of O(1)? *
 Which of the following statements best describes what an ALGORITHM is?
 '''
 # A series of precise steps that is followed to solve a particular problem
+
+'''
+What is the time complexity for the Algorithm shown below? *
+'''
+
+# O(n2)
+
