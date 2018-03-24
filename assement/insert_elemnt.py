@@ -63,3 +63,83 @@ What is the time complexity for the Algorithm shown below? *
 
 # page 7 of 11 - recursion
 
+'''
+A recursive algorithm splits a problem into a base case and a recursive case. *
+'''
+# True
+
+'''
+Which of the following questions do you need to consider when creating a recursive function? *
+'''
+# Is there a non recursive way out of the function?
+# Does each call to the recursive function get you closer to a solution that can be expressed without recursion?
+
+'''
+Which of the following statements is TRUE about recursion? *
+'''
+# Recursive functions can hog a lot of memory and cause system crashes
+
+# page 8 of 11 - sorting and searching
+
+'''
+If you are asked to sort a list of numbers from the largest to the smallest, which of the following statements will be TRUE? *
+'''
+# Selection sorting divides the list into two parts, one part which is already sorted and the other which needs sorting.
+
+'''
+Which of the following is a Search Algorithm? *
+'''
+# Slow search
+
+'''
+What is the worst-case time complexity for the merge-sort algorithm? *
+'''
+# O(nlogn)
+
+# page 9 of 11 - Software engineering
+
+'''
+Which of the following term is NOT associated with agile software development? *
+'''
+# Waterfall model
+
+'''
+Which of the following statements BEST describes the term "Software"? *
+'''
+# Software is a collection of executable programming code, associated libraries and documentations
+
+'''
+In agile software development, a developer needs to define ALL the client’s requirements BEFORE they embark on developing the product. *
+'''
+# True
+
+# page 10 of 11 - the internet
+
+'''
+All the following are Internet/Web protocols except *
+'''
+# PING
+
+'''
+Which of the following statements is FALSE? *
+'''
+# A browser user can wipe out all the data stored in a session
+
+'''
+Which of the following statements is TRUE? *
+'''
+# A DNS server resolves a domain name into its corresponding IP address
+
+# page 11 of 11 - web programming
+
+'''
+The following are examples of web servers except: *
+'''
+# Amazon Web Services
+
+'''
+Which of the following is NOT a Python web framework? *
+'''
+# Numpy
+
+
