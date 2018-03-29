@@ -20,9 +20,11 @@ class Manager(Person):
         Person.__init__(self, name, 'mgr', pay)
 
     def giveRaise(self, percent, bonus = .10):
+        """Return a bonus"""
         Person.giveRaise(self, percent + bonus)
         
     def __repr__(self):
+        """Return a representation of a manager instance."""
         return "<Manager: {} {}>".format(self.name, self.pay)
 
 #if __name__ == '__main__':
