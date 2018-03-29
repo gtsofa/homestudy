@@ -21,6 +21,9 @@ class Manager(Person):
 
     def giveRaise(self, percent, bonus = .10):
         Person.giveRaise(self, percent + bonus)
+        
+    def __repr__(self):
+        return "<Manager: {} {}>".format(self.name, self.pay)
 
 #if __name__ == '__main__':
     
